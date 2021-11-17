@@ -336,16 +336,23 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background: #fff;
-	color: #333;
-	font-family: "";
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic Medium", "Yu Gothic", Verdana, Meiryo, sans-serif;
 	font-size: 16px;
-	font-weight: 400;
-	line-height: 1.6;
+	font-weight: mediam;
+	line-height: 1;
 	min-height: 100vh;
 	min-height: -webkit-fill-available;
 	overflow-wrap: break-word;
 	position: relative;
 	z-index: -9999;
+}
+
+/* IEだけに適応 */
+
+_:lang(x)::-ms-backdrop,
+body {
+	font-family: "Segoe UI", Meiryo, sans-serif;
 }
 
 /* Box sizing rules */
@@ -578,6 +585,13 @@ summary {
 
 /* Remove all animations and transitions for people that prefer not to see them */
 
+.l-header {
+	left: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
 .l-inner {
 	height: inherit;
 	margin: 0 auto;
@@ -587,14 +601,102 @@ summary {
 	width: 100%;
 }
 
-.p-header-pc {
-	display: none;
-	height: 5rem;
+.c-logo {
+	height: 100%;
+	width: 8.5rem;
 }
 
-.p-header-pc__logo {
-	max-width: 8.5rem;
-	width: 100%;
+.c-logo__link {
+	align-items: center;
+	display: flex;
+	height: 100%;
+}
+
+.c-hamburger {
+	z-index: 9999;
+}
+
+.c-hamburger span {
+	background: #1B224C;
+	display: block;
+	height: 2px;
+	position: relative;
+	transition: ease 0.5s;
+	width: 24px;
+}
+
+.c-hamburger span:nth-child(1) {
+	top: 0;
+}
+
+.c-hamburger span:nth-child(2) {
+	margin: 5px 0;
+}
+
+.c-hamburger span:nth-child(3) {
+	top: 0;
+}
+
+/*OPEN時の動き*/
+
+.c-hamburger.is-open span:nth-child(1) {
+	top: 10px;
+	transform: rotate(45deg);
+}
+
+.c-hamburger.is-open span:nth-child(2) {
+	opacity: 0;
+	transform: translateY(-50%);
+}
+
+.c-hamburger.is-open span:nth-child(3) {
+	top: -10px;
+	transform: rotate(-45deg);
+}
+
+.p-header {
+	background: #fff;
+	height: 3.75rem;
+}
+
+.p-header__inner {
+	align-items: center;
+	display: flex;
+	height: inherit;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.p-header__pc-box {
+	display: flex;
+	height: inherit;
+}
+
+.p-pc-nav {
+	display: none;
+	font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI semibold", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic", "Segoe UI", Verdana, Meiryo, sans-serif;
+	font-weight: bold;
+	height: inherit;
+}
+
+.p-pc-nav__items {
+	color: #1B224C;
+	display: flex;
+	height: inherit;
+	justify-content: center;
+}
+
+.p-pc-nav__item {
+	height: inherit;
+}
+
+.p-pc-nav__item a {
+	align-items: center;
+	display: flex;
+	height: inherit;
+	justify-content: center;
+	padding: 0 0.875rem;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -640,12 +742,21 @@ html {
 	padding-right: 25px;
 }
 
-.p-header-pc {
-	display: block;
+.p-header {
+	height: 5rem;
 }
 
-.p-header-sp {
+.p-header__inner {
+	padding-left: 15px;
+	padding-right: 10px;
+}
+
+.p-header__drawer {
 	display: none;
+}
+
+.p-pc-nav {
+	display: block;
 }
 
 }

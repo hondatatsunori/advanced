@@ -1,0 +1,31 @@
+.p-header {
+  height: rem(60);
+  background: $background;
+  @include mq(tab) {
+    height: rem(80);
+  }
+}
+
+.p-header__inner {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: $padding-sp;
+  padding-right: $padding-sp;
+  @include mq(tab) {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+}
+
+.p-header__pc-left {
+  display: flex;
+  height: inherit;
+}
+
+.p-header__drawer {
+  @include mq(tab) {
+    display: none;
+  }
+}

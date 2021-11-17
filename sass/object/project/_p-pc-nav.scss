@@ -1,0 +1,28 @@
+.p-pc-nav {
+  height: inherit;
+  display: none;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI semibold", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic", "Segoe UI", Verdana, Meiryo, sans-serif;
+  font-weight: bold;
+  @include mq(tab) {
+    display: block;
+  }
+}
+
+.p-pc-nav__items {
+  height: inherit;
+  color: $sub-text-color;
+  display: flex;
+  justify-content: center;
+}
+
+.p-pc-nav__item {
+  height: inherit;
+}
+
+.p-pc-nav__item a {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 rem(14);
+}

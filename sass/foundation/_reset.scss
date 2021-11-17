@@ -49,6 +49,11 @@ body {
 	z-index: -9999;
 }
 
+/* IEだけに適応 */
+_:lang(x)::-ms-backdrop, body {
+	font-family: "Segoe UI", Meiryo, sans-serif;
+} 
+
 /* Box sizing rules */
 *,
 *::before,

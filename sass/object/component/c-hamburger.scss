@@ -1,0 +1,40 @@
+.c-hamburger {
+  z-index: 9999;
+}
+
+.c-hamburger span {
+  position: relative;
+  display: block;
+  height: 2px;
+  width: 24px;
+  background: $sub-background;
+  transition: ease 0.5s;
+}
+
+.c-hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.c-hamburger span:nth-child(2) {
+  margin: 5px 0;
+}
+
+.c-hamburger span:nth-child(3) {
+  top: 0;
+}
+
+/*OPEN時の動き*/
+.c-hamburger.is-open span:nth-child(1) {
+  top: 10px;
+  transform: rotate(45deg);
+}
+
+.c-hamburger.is-open span:nth-child(2) {
+  transform: translateY(-50%);
+  opacity: 0;
+}
+
+.c-hamburger.is-open span:nth-child(3) {
+  top: -10px;
+  transform: rotate(-45deg);
+}
