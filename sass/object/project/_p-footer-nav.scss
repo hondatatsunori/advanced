@@ -1,0 +1,25 @@
+.p-footer-nav {
+  font-weight: $font-family-bold;
+}
+
+.p-footer-nav__items {
+  @include mq(pc) {
+    display: flex;
+  }
+}
+
+.p-footer-nav__item {
+  padding: rem(7) 0;
+}
+
+.p-footer-nav__item:not(:last-child) {
+  @include mq(pc) {
+    padding-right: rem(21.5);
+    margin-right: rem(21.5);
+    border-right: 1px solid #fff;
+  }
+}
+
+.p-footer__tel::before {
+  background: url("../../../advanced/assets/img/common/tel-white.svg") no-repeat;
+}

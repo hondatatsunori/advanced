@@ -1,0 +1,24 @@
+.c-info {
+  text-align: right;
+  line-height: 1.67;
+}
+
+.c-info__time {
+  font-size: rem(12);
+}
+
+.c-info__tel {
+  font-weight: $font-family-bold;
+  position: relative;
+}
+
+.c-info__tel::before {
+  content: "";
+  display: inline-block;
+  width: rem(10);
+  height: rem(14.71);
+  background-size:contain;
+  position: absolute;
+  left: rem(-15);
+  top: rem(2);
+}

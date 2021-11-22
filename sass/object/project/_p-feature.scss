@@ -1,0 +1,18 @@
+.p-feature__title {
+  color: $sub-text-color;
+  line-height: 1.38;
+}
+
+.p-feature__items {
+  margin-top: rem(40);
+  @include mq(tab) {
+    margin-top: rem(60);
+  }
+}
+
+.p-feature__item:nth-child(n + 2) {
+  margin-top: rem(40);
+  @include mq(tab) {
+    margin-top: rem(60);
+  }
+}

@@ -1,0 +1,63 @@
+.c-card {
+  max-width: rem(280);
+}
+
+.c-card__title {
+  line-height: 1.8125;
+  font-weight: $font-family-bold;
+}
+
+.c-card__white {
+  padding: rem(30) rem(78) 0;
+  background: $background;
+  margin-top: rem(9);
+}
+
+.c-card__img {
+	width: 100%;
+	position: relative;
+}
+
+.c-card__img::before {
+	padding-top: 112%; //{縦/横}
+	display: block;
+	content: '';
+}
+
+.c-card__img img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+	height: 100%;
+}
+
+.c-card__wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: rem(16);
+}
+
+.c-card__profession {
+  padding: rem(8) rem(10);
+  color: $sub-text-color;
+  background: $background;
+  width: 35.7%;
+}
+
+.c-card__name {
+  padding: rem(8) rem(14);
+  color: $sub-text-color;
+  background: $background;
+  width: 61.4%;
+}
+
+.c-card__result {
+  padding: rem(8) rem(14);
+  color: $sub-text-color;
+  background: $background;
+  margin-top: rem(10);
+}

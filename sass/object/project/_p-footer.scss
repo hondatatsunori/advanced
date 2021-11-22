@@ -1,0 +1,24 @@
+.p-footer {
+  background-color: $sub-background;
+}
+
+.p-footer__inner {
+  padding-bottom: rem(69);
+  display: flex;
+  justify-content: space-between;
+}
+
+.p-footer__info {
+  margin-top: rem(27);
+}
+
+.p-footer__time {
+  margin-top: rem(13);
+}
+
+.p-footer__copy {
+  background-color: #F8F8F8;
+  text-align: end;
+  padding-top: rem(12);
+  padding-bottom: rem(12);
+}

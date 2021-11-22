@@ -1,0 +1,50 @@
+.p-catch-copy {
+  background-color: $sub-background;
+}
+
+.p-catch-copy__inner {
+  text-align: center;
+}
+
+.p-catch-copy__question {
+  line-height: 1.38;
+}
+
+.p-catch-copy__wrap {
+  margin: rem(65) auto 0;
+  display: block;
+  max-width: rem(560);
+  width: 100%;
+  @include mq(tab) {
+    display: flex;
+  }
+}
+
+.p-catch-copy__answer {
+  font-size: rem(18);
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI semibold", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic", "Segoe UI", Verdana, Meiryo, sans-serif;
+  font-weight: bold;
+  line-height: 2.17;
+}
+
+.p-catch-copy__answer:nth-child(n + 2) {
+  @include mq(tab) {
+    margin-left: rem(45);
+  }
+}
+
+.p-catch-copy__content {
+  margin-top: rem(94);
+  background-color: $background;
+  padding: rem(11) rem(14);
+  @include mq(sp) {
+    padding: rem(12) rem(16);
+  }
+}
+
+.p-catch-copy__box {
+  padding: rem(12);
+  @include mq(sp) {
+    padding: rem(22);
+  }
+}

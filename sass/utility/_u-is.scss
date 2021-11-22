@@ -1,0 +1,13 @@
+.u-is-tab {
+  display: none;
+  @include mq(tab) {
+    display: block;
+  }
+}
+
+.u-is-pc {
+  display: none;
+  @include mq(pc) {
+    display: block;
+  }
+}

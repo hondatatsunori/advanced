@@ -1,0 +1,14 @@
+.p-sample {
+  padding-top: rem(58);
+  padding-bottom: rem(60);
+  background-color: $sub-background;
+}
+
+.p-sample__items {
+  margin-top: rem(137);
+  display: flex;
+}
+
+.p-sample__item:nth-child(2n) {
+  margin: 0 rem(30);
+}

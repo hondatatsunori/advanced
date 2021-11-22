@@ -1,0 +1,39 @@
+.p-fv {
+  background: url("../../../advanced/assets/img/common/first-view.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.p-fv__inner {
+  text-align: center;
+}
+
+.p-fv__title {
+  font-size: rem(48);
+  font-weight: $font-family-bold;
+}
+
+.p-fv__text {
+  font-size: rem(18);
+  line-height: 1.72;
+  margin-top: rem(25);
+  max-width: rem(319);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.p-fv__cta-btn {
+  margin-top: rem(50);
+}
+
+.p-fv__cta-btn a {
+  display: inline-block;
+  padding: rem(22) rem(98);
+  background-color: $accent-color;
+  border-radius: rem(30);
+}
+
+.p-fv__contact {
+  margin-top: rem(22);
+}

@@ -1,0 +1,18 @@
+.c-copy-box {
+  border: rem(5) solid #1B224C;
+  color: $sub-text-color;
+}
+
+.c-copy-box__title {
+  line-height: 1.39;
+}
+
+.c-copy-box__title span {
+  background: linear-gradient(transparent 70%, $accent-color 10%);
+}
+
+.c-copy-box__text {
+  font-size: rem(18);
+  line-height: 1.72;
+  margin-top: rem(25);
+}
