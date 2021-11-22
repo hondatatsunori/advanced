@@ -29,9 +29,15 @@
         </div>
       </div>
       <div class="p-header__pc-right">
-        <div class="p-header__info c-info">
-          <p class="c-info__time"></p>
-          <a href="tel:0123-456-7890">0123-456-7890</a>
+        <div class="p-header__info c-info u-is-pc">
+          <p class="p-header__time c-info__time">平日08:00〜20:00</p>
+          <a href="tel:0123-456-7890" class="p-header__tel c-info__tel" style="cursor: default;">0123-456-7890</a>
+        </div>
+        <div class="p-header__cta-btn u-is-pc">
+          <a href="#" class="c-btn">資料請求</a>
+        </div>
+        <div class="p-header__contact-btn u-is-pc">
+          <a href="#" class="c-btn">お問い合わせ</a>
         </div>
       </div>
 

@@ -13,7 +13,7 @@
 
 .p-cta__title {
   font-size: rem(32);
-  font-weight: $font-family-bold;
+  font-weight: $font-weight-bold;
 }
 
 .p-cta__btn {
@@ -51,14 +51,8 @@
 	}
 }
 
-_::-webkit-full-page-media, _:future, :root .p-cta__content {
-  @include mq(tab) {
-    padding-left: rem(80);
-	}
-}
-
 .p-cta__text {
-  font-weight: $font-family-bold;
+  font-weight: $font-weight-bold;
   margin-right: rem(20);
   line-height: 1.2;
 }

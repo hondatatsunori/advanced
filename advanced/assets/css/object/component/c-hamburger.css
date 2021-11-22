@@ -3,12 +3,12 @@
 }
 
 .c-hamburger span {
-	background: #5c6b80;
+	background: #1B224C;
 	display: block;
-	height: rem(2);
+	height: 2px;
 	position: relative;
 	transition: ease 0.5s;
-	width: rem(24);
+	width: 24px;
 }
 
 .c-hamburger span:nth-child(1) {
@@ -16,7 +16,7 @@
 }
 
 .c-hamburger span:nth-child(2) {
-	margin: 8px 0;
+	margin: 5px 0;
 }
 
 .c-hamburger span:nth-child(3) {

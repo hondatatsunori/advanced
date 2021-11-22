@@ -1,9 +1,8 @@
 .p-pc-nav {
   height: inherit;
   display: none;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI semibold", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic", "Segoe UI", Verdana, Meiryo, sans-serif;
-  font-weight: bold;
-  @include mq(tab) {
+  font-weight: $font-weight-bold;
+  @include mq(pc) {
     display: block;
   }
 }

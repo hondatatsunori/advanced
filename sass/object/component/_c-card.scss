@@ -1,10 +1,11 @@
 .c-card {
-  max-width: rem(280);
+  width: 100%;
 }
 
 .c-card__title {
   line-height: 1.8125;
-  font-weight: $font-family-bold;
+  font-weight: $font-weight-bold;
+  letter-spacing: -1.5px;
 }
 
 .c-card__white {

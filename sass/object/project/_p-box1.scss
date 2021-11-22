@@ -27,7 +27,7 @@
 .p-box1__title {
   color: $sub-text-color;
   font-size: rem(26);
-  font-weight: $font-family-bold;
+  font-weight: $font-weight-bold;
   line-height: 1.5;
   margin-top: rem(25);
   @include mq(tab) {

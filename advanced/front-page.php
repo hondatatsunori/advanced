@@ -1,5 +1,147 @@
 <?php get_header(); ?>
 
+<section class="l-top-fv p-fv">
+  <div class="p-fv__inner">
+    <h2 class="p-fv__title">TOEFL対策はEngress</h2>
+    <p class="p-fv__text">日本人へのTOEFL指導歴豊かな講師陣のコーチング型TOEFLスクール
+    </p>
+    <div class="p-fv__cta-btn">
+      <a href="#" class="c-btn">資料請求</a>
+    </div>
+    <div class="p-fv__contact">
+      <a href="#" class="c-link">お問い合わせ</a>
+    </div>
+  </div>
+</section>
 
+<section class="l-top-catch-copy p-catch-copy">
+  <div class="p-catch-copy__inner l-inner">
+    <h2 class="p-catch-copy__question c-section__title">TOEFL学習でこんな悩みありませんか？</h2>
+    <div class="p-catch-copy__wrap">
+      <p class="p-catch-copy__answer">勉強の習慣が<br class="u-is-tab">身についていない</p>
+      <p class="p-catch-copy__answer">勉強しているはず<br class="u-is-tab">なのに点数が伸びない</p>
+      <p class="p-catch-copy__answer">正しい勉強方法が<br class="u-is-tab">わからない</p>
+    </div>
+    <div class="p-catch-copy__content">
+      <div class="p-catch-copy__box c-copy-box">
+        <h3 class="c-copy-box__title c-section__title">Engressは<br><span>TOEFLに特化したスクール</span>です</h3>
+        <p class="c-copy-box__text">完全オーダーメイドで、１人１人の悩みに合わせた最適な指導で<br class="u-is-tab">TOEFLの苦手分野を克服します。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="l-top-feature p-feature">
+  <div class="p-feature__inner l-inner">
+    <h2 class="p-feature__title c-section__title">TOEFL対策に特化したEngress3つの強み</h2>
+    <div class="p-feature__items">
+      <div class="p-feature__item p-box1">
+        <div class="p-box1__body">
+          <div class="p-box1__category"><a href="">特長 １</a></div>
+          <h3 class="p-box1__title">TOEFLに最適化された<br>無駄のないカリキュラム</h3>
+          <p class="p-box1__text">TOEFLではビジネス英語には登場しない数多くの学術的内容が出題されます。そのため、ベースとなる知識も必要になります。Engressでは過去1000題を分析し、最適なカリキュラムを組んでいます。</p>
+        </div>
+        <div class="p-box1__img">
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/feature01.jpg" alt="強みの写真">
+        </div>
+      </div>
+      <div class="p-feature__item p-box1">
+        <div class="p-box1__body">
+          <div class="p-box1__category"><a href="">特長 ２</a></div>
+          <h3 class="p-box1__title">日本人指導歴10年以上の<br>経験豊富な講師陣</h3>
+          <p class="p-box1__text">Engressの講師陣は、もともと日本人向けにTOEFLを教えていた人が大多数です。また全メンバーがTESOL(英語教授法)を取得しており、知識と経験を兼ね備えている教育のプロフェッショナルです。</p>
+        </div>
+        <div class="p-box1__img">
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/feature02.jpg" alt="強みの写真">
+        </div>
+      </div>
+      <div class="p-feature__item p-box1">
+        <div class="p-box1__body">
+          <div class="p-box1__category"><a href="">特長 ３</a></div>
+          <h3 class="p-box1__title">平均3ヶ月でTOEFL iBT20点アップ</h3>
+          <p class="p-box1__text">Engressは高校生からサラリーマンまで様々な年齢層の方々が通われていますが、完全オーダーメイドのカリキュラムで柔軟に対応しているため、平均3ヶ月でTOEFLスコアを20点アップさせています。</p>
+        </div>
+        <div class="p-box1__img">
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/feature03.png" alt="強みの写真">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="l-top-price p-price">
+  <div class="p-price__inner l-inner">
+    <h2 class="p-price__title">Engressの料金プランはこちら</h2>
+    <div class="p-price__btn">
+      <a href="" class="c-btn">料金を見てみる</a>
+    </div>
+  </div>
+</section>
+
+<section class="l-top-sample p-sample">
+  <div class="p-sample__inner l-inner">
+    <h2 class="p-sample__title c-section__title">TOEFL成功事例</h2>
+    <div class="p-sample__items">
+      <div class="p-sample__item c-card">
+        <h3 class="c-card__title">TOEFL iBT 100点を突破してコロンビア大学大学院に進学できました！</h3>
+        <div class="c-card__white">
+          <div class="c-card__img">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model01.png" alt="人のイメージ画像">
+          </div>
+        </div>
+        <div class="c-card__wrap">
+          <p class="c-card__profession">会社員</p>
+          <p class="c-card__name">T.Fujiyamaさん</p>
+        </div>
+        <p class="c-card__result">3ヶ月でTOEFL80→108点</p>
+      </div>
+      <div class="p-sample__item c-card">
+        <h3 class="c-card__title">半年でTOEFL 40点→100点を達成！コロンビア大学大学院に合格</h3>
+        <div class="c-card__white">
+          <div class="c-card__img">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model02.png" alt="人のイメージ画像">
+          </div>
+        </div>
+        <div class="c-card__wrap">
+          <p class="c-card__profession">大学生</p>
+          <p class="c-card__name">Y.Takiyamaさん</p>
+        </div>
+        <p class="c-card__result">6ヶ月でTOEFL40→100点</p>
+      </div>
+      <div class="p-sample__item c-card">
+        <h3 class="c-card__title">早稲田大学 国際教養学部AO入試合格！TOEFL iBT 109点</h3>
+        <div class="c-card__white">
+          <div class="c-card__img">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model03.png" alt="人のイメージ画像">
+          </div>
+        </div>
+        <div class="c-card__wrap">
+          <p class="c-card__profession">高校生</p>
+          <p class="c-card__name">M.Yamadaさん</p>
+        </div>
+        <p class="c-card__result">5ヶ月でTOEFL68→109点</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="l-top-cta p-cta">
+  <div class="p-cta__inner">
+    <h2 class="p-cta__title">まずは無料で資料請求から</h2>
+    <div class="p-cta__btn">
+      <a href="#" class="c-btn">資料請求</a>
+    </div>
+    <div class="p-cta__contact">
+      <a href="#" class="c-link">お問い合わせ</a>
+    </div>
+  </div>
+  <div class="p-cta__info">
+    <div class="p-cta__content">
+      <p class="p-cta__text">お電話でのお問い合わせはこちら</p>
+      <a href="tel:0123-456-7890" class="p-cta__tel">0123-456-7890</a>
+      <p class="p-cta__time">平日08:00〜20:00</p>
+    </div>
+  </div>
+</section>
 
 <?php get_footer(); ?>

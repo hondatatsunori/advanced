@@ -24,8 +24,43 @@
   height: inherit;
 }
 
+.p-header__pc-right {
+  align-items: center;
+  display: flex;
+}
+
+.p-header__info {
+  color: #1B224C;
+  margin-right: rem(23);
+}
+
+.p-header__tel {
+  margin-top: rem(10);
+}
+
+.p-header__tel::before {
+  background: url(../../../advanced/assets/img/common/tel-black.svg) no-repeat;
+}
+
+.p-header__cta-btn {
+  margin-right: rem(10);
+}
+
+.p-header__cta-btn a {
+  background-color: #F5A623;
+  border-radius: rem(5);
+  padding: rem(18) rem(43);
+}
+
+.p-header__contact-btn a {
+  background-color: #1B224C;
+  border-radius: rem(5);
+  padding: rem(18) rem(26);
+}
+
+
 .p-header__drawer {
-  @include mq(tab) {
+  @include mq(pc) {
     display: none;
   }
 }

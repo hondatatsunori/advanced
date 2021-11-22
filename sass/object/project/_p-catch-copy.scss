@@ -13,7 +13,7 @@
 .p-catch-copy__wrap {
   margin: rem(65) auto 0;
   display: block;
-  max-width: rem(560);
+  max-width: rem(575);
   width: 100%;
   @include mq(tab) {
     display: flex;
@@ -22,8 +22,7 @@
 
 .p-catch-copy__answer {
   font-size: rem(18);
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI semibold", "Helvetica Neue", HelveticaNeue, YuGothic, "Yu Gothic", "Segoe UI", Verdana, Meiryo, sans-serif;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
   line-height: 2.17;
 }
 
