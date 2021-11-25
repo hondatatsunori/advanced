@@ -7,7 +7,7 @@
 }
 
 .p-footer-nav__items {
-  @include mq(pc) {
+  @include mq(tab) {
     display: flex;
   }
 }
@@ -17,7 +17,7 @@
 }
 
 .p-footer-nav__item:not(:last-child) {
-  @include mq(pc) {
+  @include mq(tab) {
     padding-right: rem(21.5);
     margin-right: rem(21.5);
     border-right: 1px solid #fff;

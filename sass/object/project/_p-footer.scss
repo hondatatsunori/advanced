@@ -9,11 +9,17 @@
 }
 
 .p-footer__info {
-  margin-top: rem(27);
+  margin-top: rem(8);
+  @include mq(tab) {
+    margin-top: rem(27);
+  }
 }
 
 .p-footer__time {
-  margin-top: rem(13);
+  margin-top: rem(3);
+  @include mq(tab) {
+    margin-top: rem(13);
+  }
 }
 
 .p-footer__copy {

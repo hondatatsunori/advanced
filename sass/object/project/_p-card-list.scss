@@ -1,0 +1,35 @@
+.p-card-list {
+  @include mq(tab) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.p-card-list__item {
+  width: 100%;
+  margin: 0 auto;
+  @include mq(tab) {
+    margin: 0;
+    max-width: calc(33.333% - 30px * 2 / 3);
+  }
+}
+
+.p-card-list__item:nth-child(n + 2) {
+  margin-top: rem(30);
+  @include mq(tab) {
+    margin-top: 0;
+    margin-left: rem(30);
+  }
+}
+
+.p-card-list__item:nth-child(4n) {
+  @include mq(tab) {
+    margin-left: 0;
+  }
+}
+
+.p-card-list__item:nth-child(n + 4) {
+  @include mq(tab) {
+    margin-top: rem(30);
+  }
+}

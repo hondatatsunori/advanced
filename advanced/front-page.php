@@ -81,47 +81,95 @@
 <section class="l-top-sample p-sample">
   <div class="p-sample__inner l-inner">
     <h2 class="p-sample__title c-section__title">TOEFL成功事例</h2>
-    <div class="p-sample__items">
-      <div class="p-sample__item c-card">
-        <h3 class="c-card__title">TOEFL iBT 100点を突破してコロンビア大学大学院に進学できました！</h3>
-        <div class="c-card__white">
-          <div class="c-card__img">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model01.png" alt="人のイメージ画像">
+    <div class="p-sample__items p-card-list">
+      <a class="p-card-list__item p-card">
+        <h3 class="p-card__title">TOEFL iBT 100点を突破してコロンビア大学大学院に進学できました！</h3>
+        <div class="p-card__content">
+          <div class="p-card__white">
+            <div class="p-card__img">
+              <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model01.png" alt="人のイメージ画像">
+            </div>
           </div>
+          <div class="p-card__wrap">
+            <p class="p-card__profession">会社員</p>
+            <p class="p-card__name">T.Fujiyamaさん</p>
+          </div>
+          <p class="p-card__result">3ヶ月でTOEFL80→108点</p>
         </div>
-        <div class="c-card__wrap">
-          <p class="c-card__profession">会社員</p>
-          <p class="c-card__name">T.Fujiyamaさん</p>
+      </a>
+      <a class="p-card-list__item p-card">
+        <h3 class="p-card__title">半年でTOEFL 40点→100点を達成！コロンビア大学大学院に合格</h3>
+        <div class="p-card__content">
+          <div class="p-card__white">
+            <div class="p-card__img">
+              <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model02.png" alt="人のイメージ画像">
+            </div>
+          </div>
+          <div class="p-card__wrap">
+            <p class="p-card__profession">大学生</p>
+            <p class="p-card__name">Y.Takiyamaさん</p>
+          </div>
+          <p class="p-card__result">6ヶ月でTOEFL40→100点</p>
         </div>
-        <p class="c-card__result">3ヶ月でTOEFL80→108点</p>
+      </a>
+      <a class="p-card-list__item p-card">
+        <h3 class="p-card__title">早稲田大学 国際教養学部AO入試合格！TOEFL iBT 109点</h3>
+        <div class="p-card__content">
+          <div class="p-card__white">
+            <div class="p-card__img">
+              <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model03.png" alt="人のイメージ画像">
+            </div>
+          </div>
+          <div class="p-card__wrap">
+            <p class="p-card__profession">高校生</p>
+            <p class="p-card__name">M.Yamadaさん</p>
+          </div>
+          <p class="p-card__result">5ヶ月でTOEFL68→109点</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="l-top-flow p-flow">
+  <div class="p-flow__inner l-inner">
+    <h2 class="p-flow__title c-section__title">ご利用の流れ</h2>
+    <div class="p-flow__items p-box2-list">
+      <div class="p-box2-list__item p-box2">
+        <div class="p-box2__number">01</div>
+        <div class="p-box2__content">
+          <h3 class="p-box2__title">お問い合わせ</h3>
+          <p class="p-box2__text">まずはフォームまたはお電話からお申し込みください。</p>
+        </div>
       </div>
-      <div class="p-sample__item c-card">
-        <h3 class="c-card__title">半年でTOEFL 40点→100点を達成！コロンビア大学大学院に合格</h3>
-        <div class="c-card__white">
-          <div class="c-card__img">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model02.png" alt="人のイメージ画像">
-          </div>
+      <div class="p-box2-list__item p-box2">
+        <div class="p-box2__number">02</div>
+        <div class="p-box2__content">
+          <h3 class="p-box2__title">ヒアリング</h3>
+          <p class="p-box2__text">現在の学習状況やTOEFLスコア、目標のスコアをお聞きします。</p>
         </div>
-        <div class="c-card__wrap">
-          <p class="c-card__profession">大学生</p>
-          <p class="c-card__name">Y.Takiyamaさん</p>
-        </div>
-        <p class="c-card__result">6ヶ月でTOEFL40→100点</p>
       </div>
-      <div class="p-sample__item c-card">
-        <h3 class="c-card__title">早稲田大学 国際教養学部AO入試合格！TOEFL iBT 109点</h3>
-        <div class="c-card__white">
-          <div class="c-card__img">
-            <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model03.png" alt="人のイメージ画像">
-          </div>
+      <div class="p-box2-list__item p-box2">
+        <div class="p-box2__number">03</div>
+        <div class="p-box2__content">
+          <h3 class="p-box2__title">学習プランのご提供</h3>
+          <p class="p-box2__text">目標達成のために最適な学習プランをご提案致します。</p>
         </div>
-        <div class="c-card__wrap">
-          <p class="c-card__profession">高校生</p>
-          <p class="c-card__name">M.Yamadaさん</p>
+      </div>
+      <div class="p-box2-list__item p-box2">
+        <div class="p-box2__number">04</div>
+        <div class="p-box2__content">
+          <h3 class="p-box2__title">ご入会</h3>
+          <p class="p-box2__text">お申込み完了後、レッスンがスタートします。</p>
         </div>
-        <p class="c-card__result">5ヶ月でTOEFL68→109点</p>
       </div>
     </div>
+  </div>
+</section>
+
+<section class="l-top-question p-question">
+  <div class="p-question__inner l-inner">
+    <h2 class="p-question__title c-section__title">よくある質問</h2>
   </div>
 </section>
 

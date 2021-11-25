@@ -1,0 +1,43 @@
+.p-box2 {
+  display: flex;
+}
+
+.p-box2__number {
+  display: flex;
+  align-items: center;
+  background-color: $accent-color;
+  font-weight: $font-weight-bold;
+  padding: rem(24) rem(23);
+}
+
+.p-box2__content {
+  color: $sub-text-color;
+  padding: rem(10);
+  background-color: #F8F8F8;
+  width: 100%;
+  @include mq(tab) {
+    display: flex;
+    align-items: center;
+    padding: rem(17.5) rem(21);
+  }
+}
+
+.p-box2__title {
+  font-weight: $font-weight-bold;
+  font-size: rem(18);
+  @include mq(tab) {
+    padding: rem(5.5) rem(31.5) rem(5.5) 0;
+    margin-right: rem(53.5);
+    max-width: rem(200);
+    width: 100%;
+    border-right: 1px solid #C3C3C3;
+  }
+}
+
+.p-box2__text {
+  line-height: 1.3;
+  margin-top: rem(10);
+  @include mq(tab) {
+    margin-top: 0;
+  }
+}

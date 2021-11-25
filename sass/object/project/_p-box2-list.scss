@@ -1,0 +1,10 @@
+.p-box2-list {
+  margin-top: rem(30);
+  @include mq(tab) {
+    margin-top: rem(53);
+  }
+}
+
+.p-box2-list__item:nth-child(n + 2) {
+  margin-top: rem(8);
+}

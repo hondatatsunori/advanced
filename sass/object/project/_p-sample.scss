@@ -5,10 +5,8 @@
 }
 
 .p-sample__items {
-  margin-top: rem(137);
-  display: flex;
-}
-
-.p-sample__item:nth-child(2n) {
-  margin: 0 rem(30);
+  margin-top: rem(60);
+  @include mq(tab) {
+    margin-top: rem(137);
+  }
 }

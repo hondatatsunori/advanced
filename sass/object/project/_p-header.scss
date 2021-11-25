@@ -1,6 +1,7 @@
 .p-header {
   height: rem(60);
   background: $background;
+  z-index: 9999;
   @include mq(tab) {
     height: rem(80);
   }

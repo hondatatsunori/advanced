@@ -1,31 +1,41 @@
-.c-card {
-  width: 100%;
+.p-card {
+//   width: 100%;
+//   max-width: rem(320);
+  display: flex;
+  flex-direction: column;
+//   @include mq(sp) {
+//     max-width: rem(580);
+//   }
 }
 
-.c-card__title {
+.p-card__title {
   line-height: 1.8125;
   font-weight: $font-weight-bold;
   letter-spacing: -1.5px;
 }
 
-.c-card__white {
+.p-card__content {
+  margin-top: auto;
+}
+
+.p-card__white {
   padding: rem(30) rem(78) 0;
   background: $background;
   margin-top: rem(9);
 }
 
-.c-card__img {
+.p-card__img {
 	width: 100%;
 	position: relative;
 }
 
-.c-card__img::before {
+.p-card__img::before {
 	padding-top: 112%; //{縦/横}
 	display: block;
 	content: '';
 }
 
-.c-card__img img {
+.p-card__img img {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -36,27 +46,27 @@
 	height: 100%;
 }
 
-.c-card__wrap {
+.p-card__wrap {
   display: flex;
   justify-content: space-between;
   margin-top: rem(16);
 }
 
-.c-card__profession {
+.p-card__profession {
   padding: rem(8) rem(10);
   color: $sub-text-color;
   background: $background;
   width: 35.7%;
 }
 
-.c-card__name {
-  padding: rem(8) rem(14);
+.p-card__name {
+  padding: rem(8) 0 rem(8) rem(14);
   color: $sub-text-color;
   background: $background;
   width: 61.4%;
 }
 
-.c-card__result {
+.p-card__result {
   padding: rem(8) rem(14);
   color: $sub-text-color;
   background: $background;
