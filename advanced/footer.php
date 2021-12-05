@@ -2,15 +2,15 @@
   <div class="p-footer__inner l-inner">
     <div class="p-footer__nav p-footer-nav">
       <ul class="p-footer-nav__items">
-        <li class="p-footer-nav__item"><a href="#">ホーム</a></li>
-        <li class="p-footer-nav__item"><a href="#">お知らせ</a></li>
-        <li class="p-footer-nav__item"><a href="#">ブログ</a></li>
-        <li class="p-footer-nav__item"><a href="#">コース・料金</a></li>
+        <li class="p-footer-nav__item"><a href="<?php echo home_url(); ?>">ホーム</a></li>
+        <li class="p-footer-nav__item"><a href="<?php echo home_url(); ?>/news">お知らせ</a></li>
+        <li class="p-footer-nav__item"><a href="<?php echo home_url(); ?>/blog">ブログ</a></li>
+        <li class="p-footer-nav__item"><a href="<?php echo home_url(); ?>/plan">コース・料金</a></li>
       </ul>
     </div>
     <div class="footer__box">
       <h1 class="p-footer__logo c-footer-logo">
-        <a href="#" class="c-footer-logo__link">
+        <a href="<?php echo home_url(); ?>" class="c-footer-logo__link">
           <img src="http://advanced.local/wp-content/themes/advanced/assets/img/common/logo.svg" alt="タイトルロゴ">
         </a>
       </h1>

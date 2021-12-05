@@ -1,0 +1,13 @@
+.p-card2-list {
+  display: flex;
+  margin-top: rem(70);
+  overflow-x: auto;
+}
+
+.p-card2-list__item {
+  margin-top: auto;
+}
+
+.p-card2-list__item:not(:last-child) {
+  margin-right: rem(6.5);
+}

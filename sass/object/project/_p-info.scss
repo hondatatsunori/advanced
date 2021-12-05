@@ -1,0 +1,22 @@
+.p-info {
+  color: $sub-text-color;
+}
+
+.p-info__inner {
+  @include mq(tab) {
+    display: flex;
+  }
+}
+
+.p-info__content:first-child {
+  @include mq(tab) {
+    margin-right: rem(40);
+  }
+}
+
+.p-info__content:nth-child(2) {
+  margin-top: rem(60);
+  @include mq(tab) {
+    margin-top: 0;
+  }
+}

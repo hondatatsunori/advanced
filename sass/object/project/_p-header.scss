@@ -9,15 +9,19 @@
 
 .p-header__inner {
   height: inherit;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding-left: $padding-sp;
   padding-right: $padding-sp;
   @include mq(tab) {
     padding-left: 15px;
     padding-right: 10px;
   }
+}
+
+.p-header__content {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .p-header__pc-left {
@@ -53,15 +57,61 @@
   padding: rem(18) rem(43);
 }
 
+.p-header__cta-btn--drawer {
+  margin-right: rem(25);
+}
+
 .p-header__contact-btn a {
   background-color: #1B224C;
   border-radius: rem(5);
   padding: rem(18) rem(26);
 }
 
+.p-header__contact-btn--drawer {
+  margin-top: rem(10);
+  margin-right: rem(25);
+}
 
 .p-header__drawer {
   @include mq(pc) {
     display: none;
   }
+}
+
+.p-header__menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: rem(300);
+  height: 100vh;
+  background: $background;
+  padding-bottom: rem(600);
+  overflow: scroll;
+  z-index: 999;
+}
+
+.p-header__top {
+  position: fixed;
+  height: rem(60);
+  width: rem(300);
+  background-color: $background;
+  padding-left: $padding-sp;
+}
+
+.p-header__bottom {
+  margin-top: rem(30);
+  margin-left: rem(25);
+}
+
+.p-header__background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  opacity: 0.8;
 }

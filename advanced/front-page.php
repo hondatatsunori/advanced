@@ -16,7 +16,7 @@
 
 <section class="l-top-catch-copy p-catch-copy">
   <div class="p-catch-copy__inner l-inner">
-    <h2 class="p-catch-copy__question c-section__title">TOEFL学習でこんな悩みありませんか？</h2>
+    <h2 class="p-catch-copy__question c-section-title">TOEFL学習でこんな悩みありませんか？</h2>
     <div class="p-catch-copy__wrap">
       <p class="p-catch-copy__answer">勉強の習慣が<br class="u-is-tab">身についていない</p>
       <p class="p-catch-copy__answer">勉強しているはず<br class="u-is-tab">なのに点数が伸びない</p>
@@ -24,7 +24,7 @@
     </div>
     <div class="p-catch-copy__content">
       <div class="p-catch-copy__box c-copy-box">
-        <h3 class="c-copy-box__title c-section__title">Engressは<br><span>TOEFLに特化したスクール</span>です</h3>
+        <h3 class="c-copy-box__title c-section-title">Engressは<br><span>TOEFLに特化したスクール</span>です</h3>
         <p class="c-copy-box__text">完全オーダーメイドで、１人１人の悩みに合わせた最適な指導で<br class="u-is-tab">TOEFLの苦手分野を克服します。</p>
       </div>
     </div>
@@ -33,7 +33,7 @@
 
 <section class="l-top-feature p-feature">
   <div class="p-feature__inner l-inner">
-    <h2 class="p-feature__title c-section__title">TOEFL対策に特化したEngress3つの強み</h2>
+    <h2 class="p-feature__title c-section-title">TOEFL対策に特化したEngress3つの強み</h2>
     <div class="p-feature__items">
       <div class="p-feature__item p-box1">
         <div class="p-box1__body">
@@ -80,51 +80,51 @@
 
 <section class="l-top-sample p-sample">
   <div class="p-sample__inner l-inner">
-    <h2 class="p-sample__title c-section__title">TOEFL成功事例</h2>
+    <h2 class="p-sample__title c-section-title">TOEFL成功事例</h2>
     <div class="p-sample__items p-card-list">
       <a class="p-card-list__item p-card">
-        <h3 class="p-card__title">TOEFL iBT 100点を突破してコロンビア大学大学院に進学できました！</h3>
+        <h3 class="p-card__title"><?php the_field('title1'); ?></h3>
         <div class="p-card__content">
           <div class="p-card__white">
             <div class="p-card__img">
-              <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model01.png" alt="人のイメージ画像">
+              <img src="<?php the_field('picture1'); ?>"　alt="人のイメージ画像">
             </div>
           </div>
           <div class="p-card__wrap">
-            <p class="p-card__profession">会社員</p>
-            <p class="p-card__name">T.Fujiyamaさん</p>
+            <p class="p-card__profession"><?php the_field('profession1'); ?></p>
+            <p class="p-card__name"><?php the_field('name1'); ?></p>
           </div>
-          <p class="p-card__result">3ヶ月でTOEFL80→108点</p>
+          <p class="p-card__result"><?php the_field('result1'); ?></p>
         </div>
       </a>
       <a class="p-card-list__item p-card">
-        <h3 class="p-card__title">半年でTOEFL 40点→100点を達成！コロンビア大学大学院に合格</h3>
+        <h3 class="p-card__title"><?php the_field('title2'); ?></h3>
         <div class="p-card__content">
           <div class="p-card__white">
             <div class="p-card__img">
-              <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model02.png" alt="人のイメージ画像">
+              <img src="<?php the_field('picture2'); ?>" alt="人のイメージ画像">
             </div>
           </div>
           <div class="p-card__wrap">
-            <p class="p-card__profession">大学生</p>
-            <p class="p-card__name">Y.Takiyamaさん</p>
+            <p class="p-card__profession"><?php the_field('profession2'); ?></p>
+            <p class="p-card__name"><?php the_field('name2'); ?></p>
           </div>
-          <p class="p-card__result">6ヶ月でTOEFL40→100点</p>
+          <p class="p-card__result"><?php the_field('result2'); ?></p>
         </div>
       </a>
       <a class="p-card-list__item p-card">
-        <h3 class="p-card__title">早稲田大学 国際教養学部AO入試合格！TOEFL iBT 109点</h3>
+        <h3 class="p-card__title"><?php the_field('title3'); ?></h3>
         <div class="p-card__content">
           <div class="p-card__white">
             <div class="p-card__img">
-              <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/model03.png" alt="人のイメージ画像">
+              <img src="<?php the_field('picture3'); ?>" alt="人のイメージ画像">
             </div>
           </div>
           <div class="p-card__wrap">
-            <p class="p-card__profession">高校生</p>
-            <p class="p-card__name">M.Yamadaさん</p>
+            <p class="p-card__profession"><?php the_field('profession3'); ?></p>
+            <p class="p-card__name"><?php the_field('name3'); ?></p>
           </div>
-          <p class="p-card__result">5ヶ月でTOEFL68→109点</p>
+          <p class="p-card__result"><?php the_field('result3'); ?></p>
         </div>
       </a>
     </div>
@@ -133,7 +133,7 @@
 
 <section class="l-top-flow p-flow">
   <div class="p-flow__inner l-inner">
-    <h2 class="p-flow__title c-section__title">ご利用の流れ</h2>
+    <h2 class="p-flow__title c-section-title">ご利用の流れ</h2>
     <div class="p-flow__items p-box2-list">
       <div class="p-box2-list__item p-box2">
         <div class="p-box2__number">01</div>
@@ -169,13 +169,84 @@
 
 <section class="l-top-question p-question">
   <div class="p-question__inner l-inner">
-    <h2 class="p-question__title c-section__title">よくある質問</h2>
+    <h2 class="p-question__title c-section-title">よくある質問</h2>
+    <div class="p-question__items p-accordion-list">
+      <div class="p-accordion-list__item p-accordion js-accordion">
+        <h3 class="p-accordion__title">Engressはサラリーマンでも学習を続けられるでしょうか？</h3>
+        <p class="p-accordion__text">Engressは各個人に最適な学習プランをご提供しております。サラリーマンの方でも継続できます。</p>
+      </div>
+      <div class="p-accordion-list__item p-accordion js-accordion">
+        <h3 class="p-accordion__title">教材はオリジナルのものを使用しているのでしょうか？</h3>
+        <p class="p-accordion__text">教材はEngressオリジナルのものを使用しています。</p>
+      </div>
+      <div class="p-accordion-list__item p-accordion js-accordion">
+        <h3 class="p-accordion__title">講師に日本人はいますか？</h3>
+        <p class="p-accordion__text">日本人講師も在籍しています。</p>
+      </div>
+      <div class="p-accordion-list__item p-accordion js-accordion">
+        <h3 class="p-accordion__title">TOEFL以外の海外大学合格のサポートもしてもらえるのでしょうか？</h3>
+        <p class="p-accordion__text">TOEFL対策専門のため、それ以外のサポートは行っておりません。</p>
+      </div>
+    </div>
   </div>
 </section>
 
+<div class="l-info p-info">
+  <div class="p-info__inner l-inner">
+    <section class="p-info__content p-box3">
+      <h2 class="p-box3__title  c-section-title--small">ブログ</h2>
+      <div class="p-box3__content">
+        <div class="p-box3__img">
+          <p class="p-box3__category">カテゴリー</p>
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/sample01.jpg" alt="ブログ写真１">
+        </div>
+        <div class="p-box3__wrap">
+          <p class="p-box3__sub-title">Engress説明会in大阪の模様をお伝えします</p>
+          <time datetime="2020-12-27" class="p-box3__time">2020-12-27</time>
+        </div>
+      </div>
+      <div class="p-box3__content">
+        <div class="p-box3__img">
+          <p class="p-box3__category">カテゴリー</p>
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/sample02.jpg" alt="ブログ写真２">
+        </div>
+        <div class="p-box3__wrap">
+          <p class="p-box3__sub-title">Engressもくもく会でみんなでTOEFL学習をしませんか？</p>
+          <time datetime="2020-12-01" class="p-box3__time">2020-12-01</time>
+        </div>
+      </div>
+      <div class="p-box3__content">
+        <div class="p-box3__img">
+          <p class="p-box3__category">カテゴリー</p>
+          <img src="<?php echo get_template_directory_uri() ?>/assets/img/common/sample03.jpg" alt="ブログ写真３">
+        </div>
+        <div class="p-box3__wrap">
+          <p class="p-box3__sub-title">TOEFL学習にはコーチング学習が最強である話</p>
+          <time datetime="2020-11–20" class="p-box3__time">2020-11–20</time>
+        </div>
+      </div>
+    </section>
+    <section class="p-info__content p-box4">
+      <h2 class="p-box4__title c-section-title--small">お知らせ</h2>
+      <div class="p-box4__content">
+        <time datetime="2020-12-01" class="p-box4__time">2020-12-01</time>
+        <p class="p-box4__sub-title">2021年のスケジュールについて</p>
+      </div>
+      <div class="p-box4__content">
+        <time datetime="2019-11-02" class="p-box4__time">2019-11-02</time>
+        <p class="p-box4__sub-title">11月休校日のお知らせ</p>
+      </div>
+      <div class="p-box4__content">
+        <time datetime="2020-10-01" class="p-box4__time">2020-10-01</time>
+        <p class="p-box4__sub-title">10月休校日のお知らせ</p>
+      </div>
+    </section>
+  </div>
+</div>
+
 <section class="l-top-cta p-cta">
   <div class="p-cta__inner">
-    <h2 class="p-cta__title">まずは無料で資料請求から</h2>
+    <h2 class="p-cta__title c-section-title--small">まずは無料で資料請求から</h2>
     <div class="p-cta__btn">
       <a href="#" class="c-btn">資料請求</a>
     </div>

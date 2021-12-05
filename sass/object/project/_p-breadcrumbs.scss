@@ -1,0 +1,12 @@
+.p-breadcrumbs {
+  font-size: rem(12);
+  color: $sub-text-color;
+  background: #F8F8F8;
+}
+
+.p-breadcrumbs__inner {
+  padding: rem(19) rem(25);
+  max-width: rem(950);
+  margin-right: auto;
+  margin-left: auto;
+}

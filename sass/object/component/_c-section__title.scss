@@ -1,5 +1,10 @@
-.c-section__title {
+.c-section-title {
   font-size: rem(36);
   font-weight: $font-weight-bold;
   text-align: center;
+}
+
+.c-section-title--small {
+  font-size: rem(32);
+  font-weight: $font-weight-bold;
 }

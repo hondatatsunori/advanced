@@ -1,0 +1,61 @@
+.p-accordion {
+  line-height: 1.6875;
+  border-bottom: 1px solid;
+}
+
+.p-accordion__title {
+  font-size: rem(16);
+  font-weight: $font-weight-base;
+  padding-top: rem(30.5);
+  padding-right: rem(55);
+  padding-bottom: rem(21.5);
+  position: relative;
+}
+
+.p-accordion__title::before {
+  display: block;
+  content: "";
+  height: rem(3);
+  width: rem(25);
+  position: absolute;
+  top: 55%;
+  right: rem(20);
+  background: $sub-background;
+}
+
+.p-accordion__title::after {
+  content: "";
+  display: block;
+  height: rem(3);
+  width: rem(25);
+  position: absolute;
+  top: 55%;
+  right: rem(20);
+  background: $sub-background;
+  transform: rotate(-90deg);
+  transition: ease 0.5s;
+}
+
+.js-accordion.open .p-accordion__title::after {
+  transform: rotate(0deg);
+}
+
+.p-accordion__text {
+  background: #F8F8F8;
+  transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  box-sizing: border-box;
+  padding-right: rem(28);
+  padding-left: rem(26);
+}
+
+.js-accordion.open .p-accordion__text {
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+  margin-bottom: rem(15.5);
+  padding-top: rem(23);
+  padding-bottom: rem(15);
+}

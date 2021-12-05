@@ -1,0 +1,80 @@
+.p-card2 {
+  width: rem(220);
+}
+
+.p-card2__title {
+  width: inherit;
+  font-size: rem(16);
+  font-weight: $font-weight-bold;
+  padding: rem(22) rem(20);
+  background-color: $sub-background;
+  text-align: center;
+}
+
+.p-card2__title--orange {
+  background-color: $accent-color;
+}
+
+.p-card2__title--orange span {
+  display: block;
+  padding-bottom: rem(21);
+}
+
+.p-card2__wrap {
+  height: rem(412);
+  border-right: solid 0.5px $sub-background;
+  border-bottom: solid 0.5px $sub-background;
+  border-left: solid 0.5px $sub-background;
+}
+
+.p-card2__charge {
+  font-size: rem(25);
+  font-weight: $font-weight-bold;
+  color: $sub-text-color;
+  padding-top: rem(30);
+  text-align: center;
+}
+
+.p-card2__charge--orange {
+  color: $accent-color;
+}
+
+.p-card2__tax {
+  padding-top: rem(14);
+  color: $sub-text-color;
+  text-align: center;
+}
+
+.p-card2__content {
+  color: $sub-text-color;
+  line-height: 1.6875;
+  position: relative;
+  padding-left: rem(20);
+  padding-right: rem(20);
+  margin-top: rem(49);
+  text-align: center;
+  & + & {
+    margin-top: rem(8);
+  }
+}
+
+.p-card2__content::before {
+  display: inline-block;
+  content: "";
+  height: rem(8.79);
+  width: rem(14);
+  border-left: 3px solid $sub-background;
+  border-bottom: 3px solid $sub-background;
+  transform: rotate(-45deg);
+  margin-right: rem(8);
+}
+
+.p-card2__message {
+  margin-top: rem(49);
+  color: $sub-text-color;
+  text-align: center;
+}
+
+.p-card2__blank {
+  margin-top: auto;
+}
