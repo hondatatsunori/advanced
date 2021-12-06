@@ -617,6 +617,10 @@ summary {
 	margin-top: 2.8125rem;
 }
 
+.l-list {
+	margin-top: 3.625rem;
+}
+
 .l-plan-cta {
 	margin-top: 3.85rem;
 }
@@ -867,6 +871,10 @@ summary {
 	padding-bottom: 0.9375rem;
 	padding-top: 1.4375rem;
 	visibility: visible;
+}
+
+.p-blog {
+	background: url(../../../advanced/assets/img/common/blog.jpg);
 }
 
 .p-box1__category {
@@ -1590,6 +1598,15 @@ summary {
 	margin-top: 3.75rem;
 }
 
+.p-list__title {
+	color: #1B224C;
+	text-align: center;
+}
+
+.p-news {
+	background: url(../../../advanced/assets/img/common/news.jpg);
+}
+
 .p-pc-nav {
 	display: none;
 	font-weight: 700;
@@ -1613,6 +1630,10 @@ summary {
 	height: inherit;
 	justify-content: center;
 	padding: 0 0.875rem;
+}
+
+.p-plan {
+	background: url(../../../advanced/assets/img/common/plan.jpg);
 }
 
 .p-price__inner {
@@ -1672,7 +1693,6 @@ summary {
 }
 
 .p-sub-fv {
-	background: url(../../../advanced/assets/img/common/plan.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;

@@ -1,8 +1,23 @@
 <?php get_header(); ?>
 
-<section class="l-sub-fv p-sub-fv">
-  <h2 class="p-sub-fv__title">お知らせ</h2>
+<section class="l-sub-fv p-sub-fv p-blog">
+  <h2 class="p-sub-fv__title">ブログ</h2>
 </section>
+
+<div class="breadcrumbs p-breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+  <div class="p-breadcrumbs__inner">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+  </div>
+</div>
+
+<div class="l-list p-list">
+  <div class="p-list__inner l-inner">
+    <h2 class="p-list__title c-section-title--small">新着一覧</h2>
+  </div>
+</div>
 
 <section class="l-list-cta p-cta">
   <div class="p-cta__inner">

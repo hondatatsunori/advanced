@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<section class="l-sub-fv p-sub-fv">
+<section class="l-sub-fv p-sub-fv p-plan">
   <h2 class="p-sub-fv__title">コース・料金</h2>
 </section>
 

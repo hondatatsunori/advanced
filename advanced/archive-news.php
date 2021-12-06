@@ -1,8 +1,17 @@
 <?php get_header(); ?>
 
-<section class="l-sub-fv p-sub-fv">
-  <h2 class="p-sub-fv__title">ブログ</h2>
+<section class="l-sub-fv p-sub-fv p-news">
+  <h2 class="p-sub-fv__title">お知らせ</h2>
 </section>
+
+<div class="breadcrumbs p-breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+  <div class="p-breadcrumbs__inner">
+    <?php if(function_exists('bcn_display'))
+    {
+        bcn_display();
+    }?>
+  </div>
+</div>
 
 <section class="l-list-cta p-cta">
   <div class="p-cta__inner">
